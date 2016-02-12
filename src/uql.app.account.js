@@ -2,7 +2,7 @@
   angular.module('uql.app.account', ['uql.app.config', 'ngCookies'])
     .config(Config);
 
-  /* @ngInject */
+  /** @ngInject */
   function Config ($httpProvider, $compileProvider) {
     $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|l|data):/);
 

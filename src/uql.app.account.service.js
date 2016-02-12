@@ -8,6 +8,7 @@
   angular.module('uql.app.account')
     .factory('UQLAccountService', uqlAccountService);
 
+  /** @ngInject */
   function uqlAccountService($http, $q, $cookies, UQL_APP_CONFIG) {
     var api = UQL_APP_CONFIG.apiUrl + 'account';
     var token = false;
