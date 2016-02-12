@@ -18,3 +18,14 @@ For this to work you must have your GIT password saved on a keychain.
 | getTokenName  | Returns the token name from the uqlapp-config component  |
 | updateAccount | Updates the user's account via the UQ API                |
 
+### Developing
+- Run the following in the root directory
+```sh
+npm install
+```
+- Change any file in the "src" directory
+- Run the following command to minify the JS *before* committing to Master
+```sh
+gulp minify
+```
+

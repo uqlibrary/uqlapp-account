@@ -1,5 +1,5 @@
 (function() {
-  angular.module('uql.app.account')
+  angular.module('uql.app.account', ['uql.app.config', 'ngCookies'])
     .config(Config);
 
   /* @ngInject */

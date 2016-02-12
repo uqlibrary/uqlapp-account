@@ -1,11 +1,11 @@
 /**
- * Alert Management service
+ * Alert Management service. Should be separated out into it's own file
  */
 
 (function() {
   'use strict';
 
-  angular.module('uql.app.account', ['uql.app.config', 'ngCookies'])
+  angular.module('uql.app.account')
     .factory('UQLAccountService', uqlAccountService);
 
   function uqlAccountService($http, $q, $cookies, UQL_APP_CONFIG) {

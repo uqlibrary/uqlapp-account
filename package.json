@@ -1,0 +1,25 @@
+{
+  "name": "uqlapp-account",
+  "version": "1.0.0",
+  "description": "uqlapp-account is a reusable component used by UQL Apps. It provides account functions and adds the X-Uql-Token Request Header to any API requests.",
+  "main": "uql.app.account.min.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jwwisgerhof@github.com/uqlibrary/uqlapp-account.git"
+  },
+  "author": "j.wisgerhof at library.uq.edu.au",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uqlibrary/uqlapp-account/issues"
+  },
+  "homepage": "https://github.com/uqlibrary/uqlapp-account#readme"
+}
