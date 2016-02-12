@@ -6,7 +6,7 @@ the X-Uql-Token Request Header to any API requests.
 ### Getting Started
 Bower install into your project:
 ```sh
-bower install https://github.com/uqlibrary/uqlapp-account.git
+bower install uqlibrary/uqlapp-account
 ```
 For this to work you must have your GIT password saved on a keychain. 
 
