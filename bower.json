@@ -1,0 +1,22 @@
+{
+  "name": "uqlapp-account",
+  "homepage": "https://github.com/uqlibrary/uqlapp-account",
+  "authors": [
+    "Jan-Willem Wisgerhof <jwwisgerhof@gmail.com>"
+  ],
+  "description": "UQL App account dependency",
+  "main": "uql.app.account.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "uqlapp-config": "https://github.com/uqlibrary/uqlapp-config.git#^0.0.0"
+  }
+}
