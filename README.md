@@ -25,6 +25,7 @@ npm install
 ```
 - Change any file in the "src" directory
 - Run the following command to minify the JS *before* committing to Master
+- Tag a release if needed
 ```sh
 gulp minify
 ```
