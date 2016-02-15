@@ -1,6 +1,9 @@
+/**
+ * Author: Jan-Willem Wisgerhof <j.wisgerhof at library.uq.edu.au>
+ * Date: 15/02/16
+ */
 (function() {
-  angular.module('uql.app.account', ['uql.app.config', 'ngCookies'])
-    .config(Config);
+  angular.module('uql.app.account').config(Config);
 
   /** @ngInject */
   function Config ($httpProvider, $compileProvider) {

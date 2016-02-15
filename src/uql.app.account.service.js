@@ -1,5 +1,6 @@
 /**
- * Alert Management service. Should be separated out into it's own file
+ * Author: Jan-Willem Wisgerhof <j.wisgerhof at library.uq.edu.au>
+ * Date: 15/02/16
  */
 
 (function() {
