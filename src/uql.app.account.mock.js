@@ -24,8 +24,6 @@
     .run(['$httpBackend', 'UQL_APP_CONFIG', 'AccountMockVal',
       function ($httpBackend, UQL_APP_CONFIG, AccountMockVal) {
 
-        console.log(AccountMockVal);
-
         var api = UQL_APP_CONFIG.apiUrl + 'account';
 
         $httpBackend.whenGET(new RegExp(api + '?([0-9]*)')).respond(200, AccountMockVal.getAccount);
