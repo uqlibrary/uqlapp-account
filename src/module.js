@@ -15,6 +15,6 @@ var mock = mock || false;
     modules.push('uql.app.account.mock');
   }
 
-  angular.module('uql.app.account', ['uql.app.config', 'ngCookies']);
+  angular.module('uql.app.account', modules);
 
 })(mock);
