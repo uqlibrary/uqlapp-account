@@ -19,14 +19,5 @@ For this to work you must have your GIT password saved on a keychain.
 | updateAccount | Updates the user's account via the UQ API                |
 
 ### Developing
-- Run the following in the root directory
-```sh
-npm install
-```
-- Change any file in the "src" directory
-- Run the following command to minify the JS *before* committing to Master
-- Tag a release if needed
-```sh
-gulp minify
-```
+- Simply commit to master and tag a new release vX.X.X
 

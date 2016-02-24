@@ -5,7 +5,13 @@
     "Jan-Willem Wisgerhof <jwwisgerhof@gmail.com>"
   ],
   "description": "UQL App account dependency",
-  "main": "dist/uqlapp-account.min.js",
+  "main": [
+    "src/module.js",
+    "src/uql.app.account.config.js",
+    "src/uql.app.account.mock.js",
+    "src/uql.app.account.run.js",
+    "src/uql.app.account.service.js"
+  ],
   "moduleType": [],
   "license": "MIT",
   "ignore": [
