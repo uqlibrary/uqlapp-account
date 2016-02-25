@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.9",
-    "uqlapp-config": "https://github.com/uqlibrary/uqlapp-config.git#^0.0.1"
+    "angular": "^1.5.0",
+    "uqlapp-config": "uqlibrary/uqlapp-config#0.0.2"
   }
 }
