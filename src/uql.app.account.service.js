@@ -83,6 +83,9 @@
     };
 
     var login = function (returnUrl) {
+      if (!returnUrl) {
+        returnUrl = $window.location.href;
+      }
       $window.location.href = "https://www.library.uq.edu.au/uqlais/login?return=" + $window.btoa(returnUrl);
     };
 
