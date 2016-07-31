@@ -10,7 +10,7 @@
     .factory('UQLAccountService', uqlAccountService);
 
   /** @ngInject */
-  function uqlAccountService($http, $q, $cookies, UQL_APP_CONFIG) {
+  function uqlAccountService($http, $q, $cookies, UQL_APP_CONFIG, $window) {
     var api = UQL_APP_CONFIG.apiUrl + 'account';
     var token = false;
     var isDeferred = false;
@@ -82,6 +82,10 @@
       return deferred.promise;
     };
 
+    var login = function (returnUrl) {
+      $window.location.href = "https://www.library.uq.edu.au/uqlais/login?return=" + $window.btoa(returnUrl);
+    };
+
     var toggleIsDeferred = function () {
       isDeferred = !isDeferred;
     };
@@ -103,7 +107,8 @@
       getAccount: getAccount,
       getToken: getToken,
       getTokenName: getTokenName,
-      updateAccount: updateAccount
+      updateAccount: updateAccount,
+      login: login
     };
   }
 
