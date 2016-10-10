@@ -86,7 +86,7 @@
       if (!returnUrl) {
         returnUrl = $window.location.href;
       }
-      $window.location.href = "https://www.library.uq.edu.au/uqlais/login?return=" + $window.btoa(returnUrl);
+      $window.location.href = "https://auth.library.uq.edu.au/login?return=" + $window.btoa(returnUrl);
     };
 
     var toggleIsDeferred = function () {
