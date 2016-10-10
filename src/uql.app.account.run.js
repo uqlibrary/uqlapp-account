@@ -9,7 +9,7 @@
   /** @ngInject **/
   function RunBlock($rootScope, $window, $location) {
     $rootScope.$on('uql.account.login', function () {
-      $window.location.href = 'https://www.library.uq.edu.au/uqlais/login?return=' + $window.btoa($location.absUrl());
+      $window.location.href = 'https://auth.library.uq.edu.au/login?return=' + $window.btoa($location.absUrl());
     });
   }
 })();
