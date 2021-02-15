@@ -3,14 +3,18 @@
 uqlapp-account is a reusable component used by UQL Apps. It provides account functions and adds
 the X-Uql-Token Request Header to any API requests.
 
-### Getting Started
+## Getting Started
+
 Bower install into your project:
+
 ```sh
 bower install uqlibrary/uqlapp-account
 ```
-For this to work you must have your GIT password saved on a keychain. 
 
-### Account Service
+For this to work you must have your GIT password saved on a keychain.
+
+## Account Service
+
 | Function      | Description                                              |
 | ------------- | -------------------------------------------------------- |
 | getAccount    | Returns account data for the logged in user              |
@@ -19,5 +23,5 @@ For this to work you must have your GIT password saved on a keychain.
 | updateAccount | Updates the user's account via the UQ API                |
 
 ### Developing
-- Simply commit to master and tag a new release vX.X.X
 
+- Simply commit to master and tag a new release vX.X.X
